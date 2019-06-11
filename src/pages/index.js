@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Hero from "../components/Hero"
 import CaseStudyCollection from "../components/CaseStudyCollection"
 import Layout from "../components/Layout"
