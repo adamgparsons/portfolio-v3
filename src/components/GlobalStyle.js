@@ -3,6 +3,7 @@ import {
 } from 'styled-components';
 import Custom from "../fonts/Custom.ttf";
 import CustomBold from "../fonts/CustomBold.ttf";
+import theme from '../theme';
 
 const GlobalStyle = createGlobalStyle `
 @font-face {
@@ -26,6 +27,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
 }
+
+::-moz-selection {
+  background-color: ${theme.colors.lightGreen};
+}
+
+::selection {
+  background-color: ${theme.colors.lightGreen};
 `;
 
 export default GlobalStyle;

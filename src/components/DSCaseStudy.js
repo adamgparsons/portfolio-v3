@@ -1,7 +1,7 @@
-import styled from 'styled-components';
-import React, {Component} from 'react';
-import CaseStudyInfo from '../components/CaseStudyInfo';
-import theme from '../theme';
+import styled from "styled-components"
+import React, { Component } from "react"
+import CaseStudyInfo from "../components/CaseStudyInfo"
+import theme from "../theme"
 
 const Wrapper = styled.div`
   display: flex;
@@ -9,7 +9,7 @@ const Wrapper = styled.div`
   @media only screen and (max-width: ${theme.breakpoints[1]}) {
     flex-direction: column;
   }
-`;
+`
 
 const CaseStudyImage = styled.div`
   @media only screen and (max-width: ${theme.breakpoints[1]}) {
@@ -30,7 +30,7 @@ const CaseStudyImage = styled.div`
       margin-right: -${theme.space[2]}px;
     }
   }
-`;
+`
 
 class DSCaseStudy extends Component {
   render() {
@@ -43,14 +43,17 @@ class DSCaseStudy extends Component {
       performance
       for users.
       "
-          link="/casestudy/design-system"
+          link="/case-studies/CA-design-system"
         />
         <CaseStudyImage>
-          <img src="https://placeimg.com/640/480/any" alt="Citizens Advice Design system" />
-        </CaseStudyImage>{' '}
+          <img
+            src="https://placeimg.com/640/480/any"
+            alt="Citizens Advice Design system"
+          />
+        </CaseStudyImage>
       </Wrapper>
-    );
+    )
   }
 }
 
-export default DSCaseStudy;
+export default DSCaseStudy

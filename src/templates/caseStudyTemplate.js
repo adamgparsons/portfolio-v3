@@ -46,6 +46,11 @@ margin-bottom: ${theme.space[7]}px
     background-color: ${theme.colors.lightGreen};
   }
   }
+  img {
+    max-width:1000px;
+    margin-top: ${theme.space[5]}px;
+    margin-bottom: ${theme.space[5]}px;
+  }
 `
 
 export default function Template({
