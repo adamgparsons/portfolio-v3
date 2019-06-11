@@ -1,7 +1,7 @@
 import React from "react"
 import Hero from "../components/Hero"
 import CaseStudyCollection from "../components/CaseStudyCollection"
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
