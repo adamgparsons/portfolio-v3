@@ -13,13 +13,13 @@ Up until recently, Mobility Aids had been operating the same way for the past 50
 
 I was a UX designer on the project responsible for conducting user research, prototyping and testing new ideas.
 
-![Workshop with volunteers](/images/brc1.jpg)
+![Workshop with volunteers](brc1.jpg)
 
 ## Discovery
 
 In the discovery phase our aim was to find out who the service users are and how well their needs are met. Over 4 weeks our team interviewed users and staff, ran workshops, reviewed analytics, mapped out the existing service and created a prototype. This provided us with key insights that informed what we’d do in alpha:
 
-![Discovery prototype](/images/brc2.png)
+![Discovery prototype](brc2.png)
 
 ### Users don’t know they can get a wheelchair, unless they speak to the Red Cross
 
@@ -59,19 +59,19 @@ Our goal was to explore ways users could order a wheelchair online and what tech
 
 This HTML prototype allowed users to borrow a wheelchair online. It helped us answer questions around demand for delivery, asking for donation and user confidence in selecting the correct wheelchair.
 
-![Prototype 1](/images/brc5.png)
+![Prototype 1](brc5.png)
 
 ### Prototype 2: When and where users can get a wheelchair
 
 We tested this HTML prototype to find out if it would be enough to only show users stock availability. We discovered users felt more confident in getting a wheelchair when reserving one online.
 
-![Prototype 2](/images/brc6.png)
+![Prototype 2](brc6.png)
 
 ### Prototype 3: Wheelchair checkout for volunteers
 
 This Invision prototype allows a volunteer to confirm a user has collected a wheelchair. This was our first attempt at designing an alternative to the default inventory system interface the volunteers have to use. Some volunteers were nervous to try it out but all could complete the checkout processes quickly and unaided.
 
-![Prototype 3](/images/brc7.png)
+![Prototype 3](brc7.png)
 
 ### More users chose to collect a wheelchair
 
@@ -93,4 +93,4 @@ By the end of alpha, we had substantial evidence that the proposed wheelchair de
 
 The aim for beta will be to build an end-to-end version of the service so we can further learn from users in a live environment. By limiting the amount of transactions, we can make changes to the service where needed before trying to scale nationwide.
 
-![Workshop post-it notes](/images/brc3.jpg)
+![Workshop post-it notes](brc3.jpg)

@@ -10,18 +10,10 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [{
-          resolve: `gatsby-remark-images`,
-          options: {
-            // It's important to specify the maxWidth (in pixels) of
-            // the content container as this plugin uses this as the
-            // base for generating different widths of each image.
-            maxWidth: 2048,
-            wrapperStyle: "margin-top:40px!important; margin-bottom:40px!important;",
-            linkImagesToOriginal: false
-          },
-        }, ],
-      },
+        plugins: [
+          `gatsby-remark-copy-images`,
+        ]
+      }
     },
     `gatsby-plugin-react-helmet`,
     {
@@ -57,13 +49,6 @@ module.exports = {
       options: {
         path: `${__dirname}/src/images`,
         name: "images"
-      }
-    },
-    `gatsby-transformer-remark`,
-    {
-      resolve: "gatsby-remark-copy-linked-files",
-      options: {
-        destinationDir: "/public"
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality

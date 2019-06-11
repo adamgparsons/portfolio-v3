@@ -25,7 +25,7 @@ We catalogued and compared all of the UI elements we could find on the public we
 
 We reviewed the front-end code on the public website and found a variety of unique font sizes, colours, media queries and spacing used. Multiple CSS classes were doing the same thing and without clear documentation led to a bloated codebase.
 
-![UI audit](/images/CAB_UI_design_system_audit.png)
+![UI audit](CAB_UI_design_system_audit.png)
 
 ## Establishing our foundations
 
@@ -47,7 +47,7 @@ With our intended audience being designers and developer (internal and external)
 
 We then built a static site that featured examples of components, corresponding code snippets and guidance. To understand if the documentation was useful, we tested it with both internal and external designers and developers.
 
-![Prototype for testing](/images/faulty-goods-tool.png)
+![Prototype for testing](faulty-goods-tool.png)
 
 ## Testing the system with developers
 
@@ -77,7 +77,7 @@ We originally had all the parts of the design system sorted into foundations, co
 
 They used the documentation site to download the sketch file but once they opened the file they didn’t return to the site. Some designers said they needed more guidance. This prompted a discussion to include documentation and examples in the sketch file.
 
-![Design system documentation site](/images/design-system-documentation-site.png)
+![Design system documentation site](design-system-documentation-site.png)
 
 ## Adding utility classes to the CSS framework
 
