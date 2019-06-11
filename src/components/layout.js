@@ -9,9 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import Helmet from "react-helmet"
-import HeaderFooter from "../components/HeaderFooter"
+import HeaderFooter from "./HeaderFooter"
 import Wrapper from "./Wrapper"
-import GlobalStyle from "../components/GlobalStyle"
+import GlobalStyle from "./GlobalStyle"
 import useSiteMetadata from "./SiteMetadata"
 
 const Layout = ({ children }) => (
