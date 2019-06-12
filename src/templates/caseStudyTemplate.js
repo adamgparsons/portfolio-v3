@@ -5,33 +5,33 @@ import styled from "styled-components"
 import theme from "../theme"
 
 const MarkdownStyles = styled.div`
-margin-bottom: ${theme.space[7]}px
+  margin-bottom: ${theme.space[7]}px;
 
   & h1 {
-    ${theme.textStyles.heading1}
-    margin-top: ${theme.space[6]}px
-    margin-bottom: ${theme.space[5]}px
+    ${theme.textStyles.heading1};
+    margin-top: ${theme.space[6]}px;
+    margin-bottom: ${theme.space[5]}px;
   }
   & h2 {
-    ${theme.textStyles.heading2}
-    margin-top: ${theme.space[6]}px
-    margin-bottom: ${theme.space[3]}px
+    ${theme.textStyles.heading2};
+    margin-top: ${theme.space[6]}px;
+    margin-bottom: ${theme.space[3]}px;
   }
 
   & h3 {
-    ${theme.textStyles.heading3}
-    margin-top: ${theme.space[5]}px
-    margin-bottom: ${theme.space[3]}px
+    ${theme.textStyles.heading3};
+    margin-top: 30px;
+    margin-bottom: ${theme.space[2]}px;
   }
 
   & p {
-    ${theme.textStyles.body}
-    margin-bottom: ${theme.space[3]}px
+    ${theme.textStyles.body};
+    margin-bottom: ${theme.space[3]}px;
   }
 
   & blockquote {
-    margin-top: ${theme.space[5]}px
-    margin-bottom: ${theme.space[6]}px
+    margin-top: ${theme.space[5]}px;
+    margin-bottom: ${theme.space[6]}px;
   }
 
   & blockquote p {
@@ -42,12 +42,12 @@ margin-bottom: ${theme.space[7]}px
     text-decoration: underline;
     color: inherit;
     transition: background-color 0.25s;
-  :hover {
-    background-color: ${theme.colors.lightGreen};
-  }
+    :hover {
+      background-color: ${theme.colors.lightGreen};
+    }
   }
   img {
-    max-width:1000px;
+    max-width: 1000px;
     margin-top: ${theme.space[5]}px;
     margin-bottom: ${theme.space[5]}px;
   }
