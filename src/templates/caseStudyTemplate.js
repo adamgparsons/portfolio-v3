@@ -19,13 +19,15 @@ const MarkdownStyles = styled.div`
   }
 
   & h3 {
-    ${theme.textStyles.heading3};
+    ${theme.textStyles.body};
+    font-weight: bold;
     margin-top: 30px;
-    margin-bottom: ${theme.space[2]}px;
+    margin-bottom: ${theme.space[1]}px;
   }
 
   & p {
     ${theme.textStyles.body};
+    color: ${theme.colors.midGray};
     margin-bottom: ${theme.space[3]}px;
   }
 

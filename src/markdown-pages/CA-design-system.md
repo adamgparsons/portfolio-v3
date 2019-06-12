@@ -13,7 +13,7 @@ The current component library, CAB UI, was designed with one case in mind, the w
 
 We wanted to replace CAB UI with a design system that creates consistency in design and development across all digital products. These digital products should be performant and accessible for all user types.
 
-## My role.
+## My role
 
 I led the project team which was made up of 3 designers and 2 developers. I contributed to both the design and front-end development of the system.
 
@@ -51,15 +51,15 @@ We then built a static documentation site that featured examples of components, 
 
 Developers were tasked with building a HTML prototype based on some high-fidelity mockups. We wanted to find out if the documentation was helpful enough for them to create a consistent and accessible prototype easily. Here are some of the key findings:
 
-### **Developers could successfully install the dev environment and build the prototype.**
+### Developers succesfully installed dev environment & built the prototype
 
 All the developers successfully installed the framework and put together a working prototype within the time allowed.
 
-### Some d**evelopers expected to find specific documentation more easily**
+### Some developers expected to find specific documentation more easily
 
 Some developers could not find the component information they wanted. This lead me to redesign the navigation bar on the documentation site to make components easier to find. When the design system grows, search may need to be considered.
 
-### **Some developers expected more accessibility guidance**
+### Some developers expected more accessibility guidance
 
 Some developers required more information guidance to ensure the components they were using were accessible. We then highlighted gaps in the documentation and how we could present them.
 
