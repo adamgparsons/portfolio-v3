@@ -13,8 +13,8 @@ import HeaderFooter from "./HeaderFooter"
 import Wrapper from "./Wrapper"
 import GlobalStyle from "./GlobalStyle"
 import useSiteMetadata from "./SiteMetadata"
-import favicon32 from '../images/favicon-32x32.png'
-import favicon16 from '../images/favicon-16x16.png'
+import favicon32 from "../images/favicon-32x32.png"
+import favicon16 from "../images/favicon-16x16.png"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -41,18 +41,8 @@ const Layout = ({ children }) => (
               sizes="180x180"
               href="/images/apple-touch-icon.png"
             />
-            <link
-              rel="icon"
-              type="image/png"
-              href={favicon32}
-              sizes="32x32"
-            />
-            <link
-              rel="icon"
-              type="image/png"
-              href={favicon16}
-              sizes="16x16"
-            />
+            <link rel="icon" type="image/png" href={favicon32} sizes="32x32" />
+            <link rel="icon" type="image/png" href={favicon16} sizes="16x16" />
 
             <link
               rel="mask-icon"
