@@ -5,6 +5,9 @@ import theme from "../theme"
 const Wrapper = styled.div`
   margin-top: ${theme.space[7]}px;
   margin-bottom: ${theme.space[6]}px;
+  @media only screen and (max-width: ${theme.breakpoints[1]}) {
+    margin-top: ${theme.space[6]}px;
+  }
 `
 
 const TagLine = styled.h2`

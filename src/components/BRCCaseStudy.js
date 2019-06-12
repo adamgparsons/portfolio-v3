@@ -26,7 +26,9 @@ const ImageHolder = styled.div`
   }
   img {
     max-width: 100%;
-    @media only screen and (max-width: ${theme.breakpoints[1]}) {
+    vertical-align: middle;
+    vertical-align: -webkit-baseline-middle @media only screen and
+      (max-width: ${theme.breakpoints[1]}) {
       // width: 500px;
     }
   }

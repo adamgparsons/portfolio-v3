@@ -25,7 +25,7 @@ We catalogued and compared all UI elements on the public website. Most of the UI
 
 We reviewed the front-end code on the public website and found a variety of unique font sizes, colours, media queries and spacing used. Multiple CSS classes were doing the same thing which led to an unnecessarily bloated codebase.
 
-![UI audit](CAB_UI_design_system_audit.png)
+![UI audit](CAB_UI_design_system_audit_2.png)
 
 ## Establishing our foundations
 
@@ -39,7 +39,7 @@ With the redesign of an online form coming up, we saw this as an opportunity to 
 
 To ensure our components were accessible, we put them in to a HTML prototype and tested it with screen reader and accessibility auditing tools.
 
-![Prototype for testing](faulty-goods-tool.png)
+![Prototype for testing](faulty_goods.png)
 
 ## Documenting the system
 
@@ -71,11 +71,11 @@ Designers were tasked with creating some high-fidelity mock ups based on some lo
 
 We originally had all the parts of the design system sorted into foundations, components and patterns. Patterns were groupings of components. Designers were often confused between what a component and what a pattern was. We decided to merge the two as our users perceived them to be the same thing.
 
-### Most designers ignored the documentation site and and only used the Sketch file
+### Most designers ignored the documentation site and only used the Sketch file
 
 They used the documentation site to download the sketch file but once they opened the file they didn’t return to the site. Some designers said they needed more guidance. This prompted a discussion to include documentation and examples in the sketch file.
 
-![Design system documentation site](design-system-documentation-site.png)
+![Design system documentation site](citizen_advice_mockup.png)
 
 ## Adding utility classes to the CSS framework
 

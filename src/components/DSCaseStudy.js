@@ -2,7 +2,7 @@ import styled from "styled-components"
 import React, { Component } from "react"
 import CaseStudyInfo from "../components/CaseStudyInfo"
 import theme from "../theme"
-import dsmockup from "../images/citizen_advice_mockup.png"
+import dsmockup from "../images/CA_logo.svg"
 
 const Wrapper = styled.div`
   display: flex;
@@ -13,10 +13,11 @@ const Wrapper = styled.div`
 `
 
 const ImageHolder = styled.div`
-  background-color: ${theme.colors.lightBlue};
+  background-color: ${theme.colors.lightestBlue};
   padding-left: ${theme.space[4]}px;
   padding-right: ${theme.space[4]}px;
-  padding-top: ${theme.space[5]}px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 
   @media only screen and (max-width: ${theme.breakpoints[1]}) {
     transform: translateX(0px);
@@ -29,6 +30,8 @@ const ImageHolder = styled.div`
   }
   img {
     max-width: 100%;
+    display: block;
+    margin: auto;
     @media only screen and (max-width: ${theme.breakpoints[1]}) {
       // width: 500px;
     }
@@ -36,10 +39,10 @@ const ImageHolder = styled.div`
 `
 
 const CaseStudyImage = styled.div`
-  max-width: 50%;
+  width: 50%;
   @media only screen and (max-width: ${theme.breakpoints[1]}) {
     margin-top: ${theme.space[6]}px;
-    max-width: 100%;
+    width: 100%;
   }
   @media only screen and (max-width: ${theme.breakpoints[2]}) {
   }
