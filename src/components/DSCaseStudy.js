@@ -2,7 +2,7 @@ import styled from "styled-components"
 import React, { Component } from "react"
 import CaseStudyInfo from "../components/CaseStudyInfo"
 import theme from "../theme"
-import dsmockup from "../images/citizen_advice_mockuup3.png"
+import dsmockup from "../images/citizen_advice_mockup.png"
 
 const Wrapper = styled.div`
   display: flex;
@@ -13,12 +13,10 @@ const Wrapper = styled.div`
 `
 
 const ImageHolder = styled.div`
-  overflow: hidden;
-  // background-color: red;
-  transform: translateX(200px);
+  background-color: ${theme.colors.lightBlue};
   padding-left: ${theme.space[4]}px;
   padding-right: ${theme.space[4]}px;
-  padding-top: ${theme.space[4]}px;
+  padding-top: ${theme.space[5]}px;
 
   @media only screen and (max-width: ${theme.breakpoints[1]}) {
     transform: translateX(0px);
@@ -27,18 +25,23 @@ const ImageHolder = styled.div`
   }
   @media only screen and (max-width: ${theme.breakpoints[2]}) {
     transform: translateX(0px);
+    overflow: visible;
+  }
+  img {
+    max-width: 100%;
+    @media only screen and (max-width: ${theme.breakpoints[1]}) {
+      // width: 500px;
+    }
   }
 `
 
 const CaseStudyImage = styled.div`
+  max-width: 50%;
   @media only screen and (max-width: ${theme.breakpoints[1]}) {
     margin-top: ${theme.space[6]}px;
+    max-width: 100%;
   }
   @media only screen and (max-width: ${theme.breakpoints[2]}) {
-    max-width: 50%;
-  }
-  img {
-    // transform: translateX(30px);
   }
 `
 
@@ -57,11 +60,7 @@ class DSCaseStudy extends Component {
         />
         <CaseStudyImage>
           <ImageHolder>
-            <img
-              src={dsmockup}
-              alt="Citizens Advice Design system"
-              width="600px"
-            />
+            <img src={dsmockup} alt="Citizens Advice Design system" />
           </ImageHolder>
         </CaseStudyImage>
       </Wrapper>
