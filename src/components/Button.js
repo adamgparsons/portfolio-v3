@@ -15,7 +15,8 @@ const Button = styled(props => <Link {...props} />)`
   letter-spacing: 2px;
   transition: background-color 0.5s;
   :hover {
-    background-color: ${theme.colors.darkGray}
+    background-color: ${theme.colors.green};
+    // color: ${theme.colors.darkGray};
   }
 
 `;

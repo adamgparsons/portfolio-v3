@@ -55,6 +55,12 @@ const MarkdownStyles = styled.div `
     margin-top: ${theme.space[5]}px;
     margin-bottom: ${theme.space[5]}px;
   }
+  .video {
+    margin:0 auto;
+    display:block;
+    margin-top: ${theme.space[6]}px;
+
+  }
 `
 
 export default function Template({

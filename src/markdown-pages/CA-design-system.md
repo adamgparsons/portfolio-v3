@@ -98,3 +98,5 @@ The components that are currently in the design system were our MVP. Some teams 
 ### Supporting React
 
 Citizens Advice uses React for some of its web apps and there’s opportunity for the design system to create a reusable React library to speed up development.
+
+![Design system research analysis](ds-post-its.jpg)
