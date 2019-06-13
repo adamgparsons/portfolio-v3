@@ -10,9 +10,9 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [
-          `gatsby-remark-copy-images`,
-        ]
+        plugins: [{
+          resolve: `gatsby-remark-copy-images`,
+        }, ]
       }
     },
     `gatsby-plugin-react-helmet`,
