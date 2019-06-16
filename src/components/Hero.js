@@ -28,7 +28,7 @@ class Hero extends Component {
   render() {
     return (
       <Wrapper>
-        <TagLine>I'm Adam, a Product designer based in London.</TagLine>
+        <TagLine>I'm Adam, a UX Designer based in London.</TagLine>
         <Description>
           <p>
             I focus on solving real world problems for users. I help companies
