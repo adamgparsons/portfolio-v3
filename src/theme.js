@@ -16,7 +16,7 @@ const theme = {
     heading1: {
       fontSize: "48px",
       lineHeight: "56px",
-      fontWeight: "regular",
+      fontWeight: "400",
       color: "#333",
       marginTop: "0px",
       marginBottom: "0px",
@@ -24,7 +24,7 @@ const theme = {
     heading2: {
       fontSize: "36px",
       lineHeight: "48px",
-      fontWeight: "regular",
+      fontWeight: "400",
       color: "#333",
       marginTop: "0px",
       marginBottom: "0px",
@@ -32,12 +32,12 @@ const theme = {
     heading3: {
       fontSize: "24px",
       lineHeight: "34px",
-      fontWeight: "regular",
+      fontWeight: "400",
     },
     body: {
       fontSize: "18px",
       lineHeight: "30px",
-      fontWeight: "regular",
+      fontWeight: "400",
       color: "#333",
       marginTop: "0px",
       marginBottom: "0px",
