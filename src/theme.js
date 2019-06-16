@@ -8,8 +8,9 @@ const theme = {
   measures: ["20em", "30em", "34em"],
   typefaces: {
     serif: "athelas, georgia, times, serif",
-    sansSerif: 'system-ui, -apple-system, BlinkMacSystemFont, "avenir next", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial, sans-serif',
-    mono: "Consolas, monaco, monospace"
+    sansSerif:
+      'system-ui, -apple-system, BlinkMacSystemFont, "avenir next", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial, sans-serif',
+    mono: "Consolas, monaco, monospace",
   },
   textStyles: {
     heading1: {
@@ -18,7 +19,7 @@ const theme = {
       fontWeight: "regular",
       color: "#333",
       marginTop: "0px",
-      marginBottom: "0px"
+      marginBottom: "0px",
     },
     heading2: {
       fontSize: "36px",
@@ -26,21 +27,21 @@ const theme = {
       fontWeight: "regular",
       color: "#333",
       marginTop: "0px",
-      marginBottom: "0px"
+      marginBottom: "0px",
     },
     heading3: {
       fontSize: "24px",
       lineHeight: "34px",
-      fontWeight: "regular"
+      fontWeight: "regular",
     },
     body: {
-      fontSize: "20px",
-      lineHeight: "32px",
+      fontSize: "18px",
+      lineHeight: "30px",
       fontWeight: "regular",
       color: "#333",
       marginTop: "0px",
-      marginBottom: "0px"
-    }
+      marginBottom: "0px",
+    },
   },
   colors: {
     darkRed: "#e7040f",
@@ -102,8 +103,8 @@ const theme = {
     white10: "rgba(255,255,255,.1)",
     white05: "rgba(255,255,255,.05)",
     white025: "rgba(255,255,255,.025)",
-    white0125: "rgba(255,255,255,.0125)"
-  }
-};
+    white0125: "rgba(255,255,255,.0125)",
+  },
+}
 
-export default theme;
+export default theme

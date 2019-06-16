@@ -31,6 +31,7 @@ const CaseStudyDescription = styled.p`
   line-height: 28px;
   margin-top: ${theme.space[5]}px;
   margin-bottom: ${theme.space[6]}px;
+  padding-right: ${theme.space[4]}px;
 `
 
 class CaseStudyInfo extends Component {

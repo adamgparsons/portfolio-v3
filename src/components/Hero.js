@@ -17,6 +17,8 @@ const TagLine = styled.h2`
 
 const Description = styled.div`
   ${theme.textStyles.heading2}
+  font-size: 30px;
+  line-height: 46px;
   @media only screen and (max-width: ${theme.breakpoints[1]}) {
     ${theme.textStyles.heading3}
   }
