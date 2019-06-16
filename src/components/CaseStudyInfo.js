@@ -42,12 +42,12 @@ class CaseStudyInfo extends Component {
     const link = this.props.link
     return (
       <InfoWrapper>
-        <Fade left>
+        <Fade up>
           <div>
             <CompanyName> {companyName} </CompanyName>
             <CaseStudyName> {caseStudyName} </CaseStudyName>
             <CaseStudyDescription> {description} </CaseStudyDescription>
-            <Button to={link}>View case study</Button>
+            <Button to={link}>Read more</Button>
           </div>
         </Fade>
       </InfoWrapper>

@@ -1,11 +1,9 @@
-import {
-  createGlobalStyle
-} from 'styled-components';
-import Custom from "../fonts/Custom.ttf";
-import CustomBold from "../fonts/CustomBold.ttf";
-import theme from '../theme';
+import { createGlobalStyle } from "styled-components"
+import Custom from "../fonts/Custom.ttf"
+import CustomBold from "../fonts/CustomBold.ttf"
+import theme from "../theme"
 
-const GlobalStyle = createGlobalStyle `
+const GlobalStyle = createGlobalStyle`
 @font-face {
   font-family: "Custom font";
   src: local("Custom"), local("Custom"), url(${Custom}) format("truetype")
@@ -27,13 +25,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
 }
+`
 
-::-moz-selection {
-  background-color: ${theme.colors.lightGreen};
-}
-
-::selection {
-  background-color: ${theme.colors.lightGreen};
-`;
-
-export default GlobalStyle;
+export default GlobalStyle

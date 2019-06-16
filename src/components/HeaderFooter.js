@@ -26,7 +26,6 @@ const Logo = styled(props => <Link {...props} />)`
   transition: border-bottom 0.5s, background-color 0.5s;
   :hover {
     border-bottom: 2px black solid;
-    background-color: ${theme.colors.lightGreen};
   }
 `
 
