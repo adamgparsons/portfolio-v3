@@ -52,8 +52,8 @@ const HeaderFooter = () => {
       <Logo to="/">Adam Parsons</Logo>
       <ContactDetails>
         <Email>
-          <ExternalLink href="mailto:adamgeorgeparsons@gmail.com">
-            adamgeorgeparsons@gmail.com
+          <ExternalLink href="mailto:adam@adamparsons.me">
+            adam@adamparsons.me
           </ExternalLink>
         </Email>
 
