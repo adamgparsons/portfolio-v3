@@ -30,7 +30,7 @@ const CaseStudyDescription = styled.p`
   display:block;
   line-height: 28px;
   margin-top: ${theme.space[5]}px;
-  margin-bottom: ${theme.space[6]}px;
+  margin-bottom: ${theme.space[5]}px;
   padding-right: ${theme.space[4]}px;
 `
 

@@ -28,17 +28,15 @@ class Hero extends Component {
   render() {
     return (
       <Wrapper>
-        <TagLine>I'm Adam, a UX Designer based in London.</TagLine>
+        <TagLine>I'm Adam, a UX Designer/Developer based in London.</TagLine>
         <Description>
           <p>
             I focus on solving real world problems for users. I help companies
             do this by researching, designing and validating with users.
           </p>
           <p>
-            I currently work at Citizens Advice designing a platform that will
-            provide advice to over 5 million UK citizens per year. I was
-            previously working at British Red Cross redesigning their wheelchair
-            service.
+            I currently work at <a href="http://wearesnook.com">Snook</a>{" "}
+            designing digital services to help make the world more human.
           </p>
         </Description>
       </Wrapper>
